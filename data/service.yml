@@ -1,7 +1,7 @@
 enable: true
-title: #Our Services
-subtitle: #>
-  #想說的話放這裡
+title: Our Services
+subtitle: >
+  想說的話放這裡
 content1:
 
   - icon: ion-coffee
@@ -15,18 +15,20 @@ content1:
     text: >
       適合：具備簡歷撰寫經驗、久未更新簡歷的職場人<br>服務內容： 撰寫 & 修編 -> 排版 -> 定稿<br>已知內容的簡歷撰寫，給繁忙職場人的省時簡歷製作。<br>適合已經清楚知道個人簡歷內容的人，將內容提供給我們後，我們依照您的需求，替您撰寫簡歷。我們將同時提供您相關領域的建議，適合的內容，協助去蕪存菁、排版美化。
 
+content2:
 
   - icon: ion-image
     name: CV Editing & Revising  / 簡歷修編
     text: >
       適合：社會新鮮人、工作五年的職場人<br>服務內容：修編 -> 排版 -> 定稿
 
-content2:
 
   - icon: ion-leaf
     name: Format Editing / 排版
     text: >
       適合：所有已具備完整個人簡歷的客戶<br>服務內容： 排版<br><br>協助個人簡歷的排版，創造更美化的簡歷介面，提升簡歷的專業度和易讀性。<br>依照不同領域、職位進行排版修編，如有特殊喜好，請務必事先和貝兒討論喔！
+
+content3:
 
   - icon: ion-bug
     name: Employment Consulting / 求職顧問

@@ -1,5 +1,5 @@
 +++
-title = "Hugo is for lovers"
+title = "Belle’s Working Rules / 貝兒工作守則"
 date = "2015-08-03T13:39:46+02:00"
 description = "This is meta description for blog page"
 tags = ["hugo"]

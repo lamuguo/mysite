@@ -8,15 +8,22 @@
 	{{ partial "header.html" . }}
 
 	{{ partial "global-header.html" . }}
-
 	<section class="blog section">
 		<div class="container">
+            <!--
+            <div class="row">
+                <div class="section-title col-md-12 col-centered">
+                  <h2>{{ .Site.Data.work.title}}</h2>
+                  <p>{{ .Site.Data.work.subtitle | safeHTML}}</p>
+                </div>
+            </div>
+            -->
 			<div class="row">
 				{{ range (.Paginator 6).Pages }}
 				<div class="col-md-6">
 					<article class="blog-post">
-						{{ with .Params.image }}
-						<img src="{{ . | absURL }}" class="img-responsive" alt="post-thumb"> {{ end }}
+						<!--{{ with .Params.image }}
+						<img src="{{ . | absURL }}" class="img-responsive" alt="post-thumb"> {{ end }}-->
 						<a class="post-title" href="{{ .Permalink }}">{{ .Title }}</a>
 						<p>
 							{{ .Summary }}
