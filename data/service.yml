@@ -1,45 +1,46 @@
 enable: true
-title: Our Services
-subtitle: >
-  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
-content:
+title: #Our Services
+subtitle: #>
+  #想說的話放這裡
+content1:
 
   - icon: ion-coffee
-    name: Branding
+    name: Pre-discussion / 發想
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      適合：從沒寫過的新手、大學生找實習、社會新鮮人、轉換跑道的職場人<br>服務內容：簡歷內容討論(1~2次) -> 撰寫 & 修編 -> 排版 -> 定稿<br>從頭開始和您討論個人簡歷的內容，深入挖掘您的需求，做出最客製化的簡歷。<br>您不需要有寫過簡歷/自傳的經驗，貝兒將從頭開始引導您思考內容，這同時也是您認識自己的一個機會，「您是誰？」」和「您希望呈現給面試官的自己」都將是我們專注的重點，這將引導我們做出最適合您且符合因應需求的個人簡歷。
+
 
   - icon: ion-compass
-    name: Web Design
+    name: CV Writing / 簡歷撰寫
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      適合：具備簡歷撰寫經驗、久未更新簡歷的職場人<br>服務內容： 撰寫 & 修編 -> 排版 -> 定稿<br>已知內容的簡歷撰寫，給繁忙職場人的省時簡歷製作。<br>適合已經清楚知道個人簡歷內容的人，將內容提供給我們後，我們依照您的需求，替您撰寫簡歷。我們將同時提供您相關領域的建議，適合的內容，協助去蕪存菁、排版美化。
+
 
   - icon: ion-image
-    name: App Design
+    name: CV Editing & Revising  / 簡歷修編
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      適合：社會新鮮人、工作五年的職場人<br>服務內容：修編 -> 排版 -> 定稿
 
-  - icon: ion-bug
-    name: Start Up
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-headphone
-    name: Logo Design
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+content2:
 
   - icon: ion-leaf
-    name: Development
+    name: Format Editing / 排版
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      適合：所有已具備完整個人簡歷的客戶<br>服務內容： 排版<br><br>協助個人簡歷的排版，創造更美化的簡歷介面，提升簡歷的專業度和易讀性。<br>依照不同領域、職位進行排版修編，如有特殊喜好，請務必事先和貝兒討論喔！
+
+  - icon: ion-bug
+    name: Employment Consulting / 求職顧問
+    text: >
+      適合：大學生找實習、社會新鮮人<br>服務內容：簡歷投遞、面試安排、面試諮詢<br>提供簡歷/自傳評估後，貝兒視情況可能建議您購買簡歷&自傳修編的服務，我們很難替簡歷/自傳未達標準卻不願意我們協助修改的客戶提供求職顧問服務Orz……
+
 
   - icon: ion-planet
-    name: Brand Identity
+    name: Personal Webpage Consulting / 個人網頁顧問
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      適合：學術領域的客戶、社會&職場新鮮人、工作五年以上的專業經理人<br>服務內容： 職業個人網站的建置建議 (e.g. LinkedIn)
 
-  - icon: ion-earth
-    name: Brand Identity
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+
+  #- icon: ion-earth
+  #  name: Brand Identity
+  #  text: >
+  #    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
