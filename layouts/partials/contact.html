@@ -4,6 +4,7 @@
 {{ with .Site.Params.contact }}
 <section id="contact-form">
   <div class="container">
+    <!--
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
@@ -31,22 +32,30 @@
         </div>
       </div>
     </div>
+    -->
     <div id="contact-box" class="row">
-      <div class="col-md-6 col-sm-12">
+      <div class="col-md-12 col-sm-12">
         <div class="block">
 
           <h2>{{ .box.title }}</h2>
-          <ul class="address-block">
-            <li>
-              <i class="fa fa-map-marker"></i>{{ .box.address }}
-            </li>
-            <li>
-              <i class="fa fa-envelope-o"></i>{{ .box.email }}
-            </li>
-            <li>
-              <i class="fa fa-phone"></i>{{ .box.phone }}
-            </li>
-          </ul>
+          <center>
+              <ul class="address-block">
+                <!--
+                <li>
+                  <i class="fa fa-map-marker"></i>{{ .box.address }}
+                </li>
+                -->
+                <p><b>任何需求、問題<br>都歡迎和我們聯繫<br>Belle CV Consulting, 期待您的來信</b></p>
+                <li>
+                  <i class="fa fa-envelope-o"></i>{{ .box.email }}
+                </li>
+                <!--
+                <li>
+                  <i class="fa fa-phone"></i>{{ .box.phone }}
+                </li>
+                -->
+              </ul>
+          </center>
           <ul class="social-icons">
           {{ range .social }}  
             <li>

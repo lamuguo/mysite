@@ -11,17 +11,17 @@ languageCode = "en-us"
   [menu]
 
     [[menu.header]]
-      weight = 2
+      weight = 3
       name = "Service"
       url = "/service"
     [[menu.header]]
-      weight = 3
+      weight = 4
       name = "Belle's Blog"
       url = "/blog"
-    [[menu.header]]
-      weight = 4
-      name = "Customers' Feedback"
-      url = "/service"
+    #[[menu.header]]
+    #  weight = 4
+    #  name = "Customers' Feedback"
+    #  url = "/service"
     [[menu.header]]
       weight = 5
       name = "Contact"
@@ -50,7 +50,7 @@ languageCode = "en-us"
   [params.feature]
     enable = true
     title = ""
-    bgImage = "img/ibelieve.jpg"
+    bgImage = "img/wrinkle_paper.png"
     content = "在貝兒，我們相信，每份簡歷都代表著一位活生生的人們<br>我們希望客戶們能藉由簡歷，呈現出<br>最好的自己"
     #[params.feature.button]
     #  caption = "View Works"
@@ -78,7 +78,7 @@ languageCode = "en-us"
     enable = true
     bgImage = "img/call-to-action-bg.jpg"
     title = "Contact Belle,"
-    paragraph = "email: SendUrCVtoBelle@gmail.com<br>任何需求、問題<br>都歡迎和我們聯繫<br>Belle CV Consulting, 期待您的來信"
+    paragraph = "email: SendUrCVtoBelle@gmail.com"
 
     #[params.call.button]
     #  url = "https://www.businessweekly.com.tw/article.aspx?id=11255&type=Blog"
