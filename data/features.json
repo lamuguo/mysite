@@ -1,0 +1,21 @@
+{
+  "description" : "创新架构带来独特领先技术优势",
+  "title" : "WHAT WE DO",
+  "content" : [
+    {
+      "img": "img/helium/ythpt.png",
+      "title" : "一体化平台",
+      "description" : "集聚云计算，微服务，大数据和人工智能的新应用一体化平台"
+    },
+    {
+      "img": "img/helium/rhpz-sssj.png",
+      "title" : "融合碰撞+实时数据",
+      "description" : "独创的数据融合碰撞组件Dojoyn快速对亿万级事件流数据进行多维碰撞实时流式处理、实时多流碰撞、实时在线分析、实时AB数据流对比提供统一的数据接入方案"
+    },
+    {
+      "img": "img/helium/mjlhbs.png",
+      "title" : "敏捷、灵活部署",
+      "description" : "可依据客户需求进行最小化部署依需求而灵活配置快速构建“基础架构+平台软件”的端到云的解决方案"
+    }
+  ]  
+}

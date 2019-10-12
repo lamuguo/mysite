@@ -1,16 +1,24 @@
-<section id="feature" style="background-image: url('{{ .Site.Params.feature.bgImage | absURL }}');">
-<div class="container">
-  <div class="row">
-    <div class="col-md-6 col-md-offset-6">
-      <h2 class="text-uppercase">{{ .Site.Params.feature.title }}</h2>
-      <p>
-      	{{ .Site.Params.feature.content | safeHTML }}
-      <!--{{ .Site.Params.feature.content | markdownify }}-->
-      </p>
-      {{ with .Site.Params.feature.button }}
-      	<a href="{{ .url }}" class="btn btn-main">{{ .caption }}</a>
-      {{ end }}
+{{ $features := .Site.Data.features }}
+{{ $title := $features.title }}
+{{ $description := $features.description }}
+<section id="features" class="text-center py-5">
+  <div class="container">
+      <h2 class="pt-5 h2">{{ $title }}</h2>
+      <p class="text-muted pb-5">{{ $description }}</p>
+    <div class="row justify-content-md-center">
+      {{ range $features.content }}
+        <div class="col-sm features">
+          <div class="icon mb-4">
+              <div className="icon">
+                  <img src={{ .img }} alt="" />
+                </div>
+                <img src="{{ .imgpath }}">
+            <!-- <i class="fa fa-{{ .icon }}"></i> -->
+          </div>
+          <h4 class="h4">{{ .title }}</h4>
+          <p class="text-muted">{{ .description }}</p>
+        </div>
+      {{end}}
     </div>
   </div>
-</div>
 </section>

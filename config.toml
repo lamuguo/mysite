@@ -6,7 +6,7 @@ languageCode = "en-us"
 # The site's parameters
 [params]
   home = "Home"
-  bgImage = "img/starynight.jpg"
+  bgImage = "img/helium/about-bg.png"
   
   [menu]
 
@@ -29,32 +29,32 @@ languageCode = "en-us"
 
   [params.slider]
     enable = true
-    title = "貝兒簡歷 <br> Belle CV Consulting"
-    subtitle = "深入瞭解您的需求<br>最個人化的簡歷編輯服務<br>每一份簡歷，都是一位客戶的精彩生命故事！"
-    bgImage = "img/starynight.jpg"
-    btnText = "看更多我們的服務"
+    title = "Helium<sup>+</sup>实时大数据融合平台"
+    subtitle = "整合云计算、大数据和人工智能三大技术体系<br>能够为企事业客户提供高效、易用、可靠的实时大数据平台服务<br>也能作为大型垂直行业应用的大数据一体化云架构框架"
+    bgImage = "img/helium/about-bg.png"
+    btnText = "服务"
     url = "/service"
 
-  [params.wrapper]
-    enable = true
-    image = "img/london.jpg"
-    title = "What we offered"
-    italic = "貝兒簡歷顧問   提供個人化的簡歷/自傳撰寫、修編、翻譯、面試諮詢等服務"
-    paragraph = "找工作、走學術，</br><br><br />想讓您的簡歷/自傳更完美，<br>突出個人專業、專精和歷來成就，<br>擁有符合職位的排版與風格，使面試官一目瞭然——<br>貝兒簡歷，提供想讓簡歷更好的您們，最符合個人需求的服務！"
+  # [params.wrapper]
+  #   enable = true
+  #   image = "img/helium/helium_banner.png"
+  #   title = "创新架构带来独特领先技术优势<"
+  #   italic = "貝兒簡歷顧問   提供個人化的簡歷/自傳撰寫、修編、翻譯、面試諮詢等服務"
+  #   paragraph = "找工作、走學術，</br><br><br />想讓您的簡歷/自傳更完美，<br>突出個人專業、專精和歷來成就，<br>擁有符合職位的排版與風格，使面試官一目瞭然——<br>貝兒簡歷，提供想讓簡歷更好的您們，最符合個人需求的服務！"
 
   [params.blog]
     enable = true
     title = "Get The Latest On What We're doing"
     subtitle = "Catch up with us, anytime and anywhere"
 
-  [params.feature]
-    enable = true
-    title = ""
-    bgImage = "img/wrinkle_paper.png"
-    content = "在貝兒，我們相信，每份簡歷都代表著一位活生生的人們<br>我們希望客戶們能藉由簡歷，呈現出<br>最好的自己"
-    #[params.feature.button]
-    #  caption = "View Works"
-    #  url = "#"
+  # [params.feature]
+  #   enable = true
+  #   title = ""
+  #   bgImage = "img/wrinkle_paper.png"
+  #   content = "在貝兒，我們相信，每份簡歷都代表著一位活生生的人們<br>我們希望客戶們能藉由簡歷，呈現出<br>最好的自己"
+  #   #[params.feature.button]
+  #   #  caption = "View Works"
+  #   #  url = "#"
 
   [params.contact]
     enable = true
